@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     s.xcconfig = {
       'VERSION' => "#{s.version}",
       'FRAMEWORK_SEARCH_PATHS' => '$(inherited)',
-      'MODULEMAP_PRIVATE_FILE' => '${PODS_ROOT}/../../FrameworkA/FrameworkA.private.modulemap',
+      'MODULEMAP_PRIVATE_FILE' => '${PODS_ROOT}/../../FrameworkA/FrameworkA/FrameworkA.private.modulemap',
     }
 
   s.static_framework = true

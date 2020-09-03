@@ -1,0 +1,16 @@
+PODS:
+  - FrameworkA (1.0.0)
+
+DEPENDENCIES:
+  - FrameworkA (from `../FrameworkA.podspec`)
+
+EXTERNAL SOURCES:
+  FrameworkA:
+    :path: "../FrameworkA.podspec"
+
+SPEC CHECKSUMS:
+  FrameworkA: a76099d02a5cd16d922a2e505394063172f5dd5e
+
+PODFILE CHECKSUM: a57e7c7e62115c6efe0cc191234713d9a1f464c1
+
+COCOAPODS: 1.9.2

@@ -1,0 +1,30 @@
+{
+  "name": "FrameworkA",
+  "version": "1.0.0",
+  "summary": "Awesome framework A",
+  "homepage": "https://github.com/hioryukimizukami/dummy.git",
+  "authors": "PlusC, Inc.",
+  "source": {
+    "git": "git@github.com:hiroyukimizukami/frameworkA.git",
+    "tag": "FrameworkA-v1.0.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "requires_arc": true,
+  "public_header_files": "FrameworkA/FrameworkA/Public/*.h",
+  "private_header_files": "FrameworkA/FrameworkA/Private/**/*.h",
+  "source_files": [
+    "FrameworkA/FrameworkA/Public/*.{h,m}",
+    "FrameworkA/FrameworkA/Private/*.{h,m}"
+  ],
+  "preserve_paths": [
+    "FrameworkA/FrameworkA/FrameworkA.private.modulemap"
+  ],
+  "xcconfig": {
+    "VERSION": "1.0.0",
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+    "MODULEMAP_PRIVATE_FILE": "${PODS_ROOT}/../../FrameworkA/FrameworkA.private.modulemap"
+  },
+  "static_framework": true
+}
