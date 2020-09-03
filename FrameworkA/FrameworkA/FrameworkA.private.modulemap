@@ -1,0 +1,3 @@
+framework module Framework_Private {
+    umbrella header "FAPrivateHeader.h"
+}
