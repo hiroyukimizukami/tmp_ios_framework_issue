@@ -24,7 +24,7 @@
   "xcconfig": {
     "VERSION": "1.0.0",
     "FRAMEWORK_SEARCH_PATHS": "$(inherited)",
-    "MODULEMAP_PRIVATE_FILE": "${PODS_ROOT}/../../FrameworkA/FrameworkA.private.modulemap"
+    "MODULEMAP_PRIVATE_FILE": "${PODS_ROOT}/../../FrameworkA/FrameworkA/FrameworkA.private.modulemap"
   },
   "static_framework": true
 }

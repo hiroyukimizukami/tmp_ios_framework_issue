@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../FrameworkA.podspec"
 
 SPEC CHECKSUMS:
-  FrameworkA: a76099d02a5cd16d922a2e505394063172f5dd5e
+  FrameworkA: c59e5fa3e2b2c6f7b577ab89e5db0dd80e56affb
 
 PODFILE CHECKSUM: a57e7c7e62115c6efe0cc191234713d9a1f464c1
 
