@@ -20,11 +20,14 @@ Pod::Spec.new do |s|
     'FrameworkA/FrameworkA/FrameworkA.private.modulemap',
   ]
 
-    s.xcconfig = {
-      'VERSION' => "#{s.version}",
-      'FRAMEWORK_SEARCH_PATHS' => '$(inherited)',
-      'MODULEMAP_PRIVATE_FILE' => '${PODS_ROOT}/../../FrameworkA/FrameworkA/FrameworkA.private.modulemap',
-    }
+  s.xcconfig = {
+    'VERSION' => "#{s.version}",
+    'FRAMEWORK_SEARCH_PATHS' => '$(inherited)',
+  }
+
+  s.pod_target_xcconfig = {
+    'MODULEMAP_PRIVATE_FILE' => '${PODS_ROOT}/../../FrameworkA/FrameworkA/FrameworkA.private.modulemap',
+  }
 
   s.static_framework = true
 end
